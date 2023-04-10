@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/sweetalert2.min.css" />
+
+    <!-- Js -->
+    <script src="js/sweetalert2.all.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Tabs -->
+      <ul class="header">
+        <li class="active tab" data-cont=".tasks">
+          <i class="fas fa-list"></i>
+        </li>
+        <li class="tab" data-cont=".finished">
+          <i class="far fa-calendar-check"></i>
+        </li>
+      </ul>
+
+      <!-- Tasks -->
+      <ul class="list tasks"></ul>
+
+      <!-- Finished Tasks -->
+      <ul class="list finished"></ul>
+
+      <!-- Add Button -->
+      <a href="#" class="add">
+        <i class="fas fa-plus-circle"></i>
+      </a>
+    </div>
+  </body>
+</html>
