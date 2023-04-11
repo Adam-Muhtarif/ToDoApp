@@ -10,12 +10,15 @@
 
 # ✔ Markan Check siiyo task wa inuu galaa checked List والعكس صحيح
 
-# Bring Back Finished Tasks To Tasks Section
+# ✔ Bring Back Finished Tasks To Tasks Section
 
-# Add Sweetalert to confirm deleting and adding new task and [add small alert to right top of screen]
+# ✔ Add Sweetalert to confirm deleting and adding new task and [add small alert to center of screen]
 
-# Make It Responsive
+# ✔ when done task wait until alert done then remove the task
 
 # Use Tailwind Css
 
 # Make Your All Code Readable
+
+
+on clicked in deletebtn select all and check parent .... to write less code create function
